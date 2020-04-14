@@ -33,7 +33,7 @@ let swiftSettings: [SwiftSetting] = [
 let package = Package(
     name: "swift-crypto",
     platforms: [
-        .iOS(.v8)
+        .iOS(.v13)
     ],
     products: [
         .library(name: "Crypto", targets: ["Crypto"]),
